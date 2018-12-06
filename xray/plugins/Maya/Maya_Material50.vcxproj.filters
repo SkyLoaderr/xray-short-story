@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{3b9cc05f-2c28-4b0a-bb84-4762a85774e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Files">
+      <UniqueIdentifier>{e4d674cb-9a21-48ec-9f84-c72a1c495e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Files\Engine">
+      <UniqueIdentifier>{2dd77800-e678-45cf-81fc-5e8b4f574dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Files\Editor">
+      <UniqueIdentifier>{f997e419-74ad-43f4-87f2-28dd53de1e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Files\Plugins">
+      <UniqueIdentifier>{f6705e01-fd7e-4f24-ac28-2fe2df4b9df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{6dbcb8f1-1d3b-4d82-bb4c-60edcdbbbb52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Material\stdafx.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\GameMtlLib.cpp">
+      <Filter>Shared Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\ELog.cpp">
+      <Filter>Shared Files\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\BlenderListLoader.cpp">
+      <Filter>Shared Files\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="Material\crc16.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Material\lambertShader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Shared\GameMtlLib.h">
+      <Filter>Shared Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\ELog.h">
+      <Filter>Shared Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\BlenderListLoader.h">
+      <Filter>Shared Files\Plugins</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Material\AElambertShaderTemplate.mel">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Material\AEXRayMtlTemplate.mel">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Material\Stdafx.h">
+      <Filter>Kernel</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

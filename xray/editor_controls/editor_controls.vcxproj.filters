@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{a4a43ef4-f67a-473b-a8a9-f63e21c1eaed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controls">
+      <UniqueIdentifier>{976167c2-0fdb-40a8-8923-3d24ad67d4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controls\property_grid">
+      <UniqueIdentifier>{7f52ff6a-e2f1-4867-b523-777c59429296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interfaces">
+      <UniqueIdentifier>{a037fc2e-97ff-400f-8fdc-4d63a4d32856}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="property_grid.cpp">
+      <Filter>controls\property_grid</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="property_grid.hpp">
+      <Filter>controls\property_grid</Filter>
+    </ClInclude>
+    <ClInclude Include="property_container_interface.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="property_incrementable.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="property_mouse_events.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="property_value.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

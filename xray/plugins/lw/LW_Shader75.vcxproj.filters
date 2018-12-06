@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{06c2d8e7-670d-49fb-8b29-c9a15735cae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Files">
+      <UniqueIdentifier>{09cd9442-b1a0-4d65-bac1-aabbd4afb5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Files\Engine">
+      <UniqueIdentifier>{5ff968a2-5119-47dc-bd2d-6dcb63d74bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Files\Editor">
+      <UniqueIdentifier>{06eafbec-f01c-4c7b-b8cf-80fd71835032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Files\Plugins">
+      <UniqueIdentifier>{061e2007-a89d-440b-99cc-c0fc7aa5d457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Files\Server">
+      <UniqueIdentifier>{1fa8160f-bde1-481e-9d9d-ff558400036c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{3e2ea7f3-35a5-4dd4-a1c5-4bf0cba19c30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="shader\stdafx.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\GameMtlLib.cpp">
+      <Filter>Shared Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\ELog.cpp">
+      <Filter>Shared Files\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\LW_Shader.cpp">
+      <Filter>Shared Files\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\BlenderListLoader.cpp">
+      <Filter>Shared Files\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="Server\servmain.c">
+      <Filter>Shared Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="shader\blotch.c">
+      <Filter>Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader\stdafx.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\GameMtlLib.h">
+      <Filter>Shared Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Shader_xrLC.h">
+      <Filter>Shared Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\ELog.h">
+      <Filter>Shared Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\LW_Shader.h">
+      <Filter>Shared Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\BlenderListLoader.h">
+      <Filter>Shared Files\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="shader\resource.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

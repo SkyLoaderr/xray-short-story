@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="IDirect3D9">
+      <UniqueIdentifier>{d1b7f822-8c07-4ed6-b4a8-eb999b6fa728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDirect3DDevice9">
+      <UniqueIdentifier>{09520e15-bf29-4a04-86e1-9c41c95a2b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDirect3DQuery9">
+      <UniqueIdentifier>{cd8bca20-90d8-43c2-a476-6930f01974cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDirect3DSurface9">
+      <UniqueIdentifier>{084ce27d-e2ce-449e-b430-2271384c6393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDirect3DIndexBuffer9">
+      <UniqueIdentifier>{baf69f61-cfba-416c-b69e-d4e8b965276b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDirect3DVertexBuffer9">
+      <UniqueIdentifier>{e0bc0189-7a04-43ae-bfc5-610b6b3ed134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDirect3DTexture9">
+      <UniqueIdentifier>{0f07d795-96d4-4dde-93fd-286e8639efd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDirect3DVertexDeclaration9">
+      <UniqueIdentifier>{ab639870-068f-4a95-99ab-11e54e7ab1d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDirect3DVertexShader9">
+      <UniqueIdentifier>{a56490cd-48c0-408a-a201-d0870c6990fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDirect3DPixelShader9">
+      <UniqueIdentifier>{8ce0564a-80e5-4753-85a7-ce2eb51e5640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDirect3DStateBlock9">
+      <UniqueIdentifier>{c8eb70f5-f173-48d5-8100-100a109b8d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IDirect3DCubeTexture9">
+      <UniqueIdentifier>{5fd0aa12-43a4-4cc7-b62f-e8382c8fe60a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xrD3D9-Null.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xrD3D9-Null_OutProc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IDirect3D9.cpp">
+      <Filter>IDirect3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="IDirect3DDevice9.cpp">
+      <Filter>IDirect3DDevice9</Filter>
+    </ClCompile>
+    <ClCompile Include="IDirect3DDevice9_Caps.cpp">
+      <Filter>IDirect3DDevice9</Filter>
+    </ClCompile>
+    <ClCompile Include="IDirect3DQuery9.cpp">
+      <Filter>IDirect3DQuery9</Filter>
+    </ClCompile>
+    <ClCompile Include="IDirect3DSurface9.cpp">
+      <Filter>IDirect3DSurface9</Filter>
+    </ClCompile>
+    <ClCompile Include="IDirect3DIndexBuffer9.cpp">
+      <Filter>IDirect3DIndexBuffer9</Filter>
+    </ClCompile>
+    <ClCompile Include="IDirect3DVertexBuffer9.cpp">
+      <Filter>IDirect3DVertexBuffer9</Filter>
+    </ClCompile>
+    <ClCompile Include="IDirect3DTexture9.cpp">
+      <Filter>IDirect3DTexture9</Filter>
+    </ClCompile>
+    <ClCompile Include="IDirect3DVertexDeclaration9.cpp">
+      <Filter>IDirect3DVertexDeclaration9</Filter>
+    </ClCompile>
+    <ClCompile Include="IDirect3DVertexShader9.cpp">
+      <Filter>IDirect3DVertexShader9</Filter>
+    </ClCompile>
+    <ClCompile Include="IDirect3DPixelShader9.cpp">
+      <Filter>IDirect3DPixelShader9</Filter>
+    </ClCompile>
+    <ClCompile Include="IDirect3DStateBlock9.cpp">
+      <Filter>IDirect3DStateBlock9</Filter>
+    </ClCompile>
+    <ClCompile Include="IDirect3DCubeTexture9.cpp">
+      <Filter>IDirect3DCubeTexture9</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="xrD3D9-Null.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xrD3D9-Null.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xrD3D9-Null_OutProc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirect3D9.h">
+      <Filter>IDirect3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirect3DDevice9.h">
+      <Filter>IDirect3DDevice9</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirect3DQuery9.h">
+      <Filter>IDirect3DQuery9</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirect3DSurface9.h">
+      <Filter>IDirect3DSurface9</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirect3DIndexBuffer9.h">
+      <Filter>IDirect3DIndexBuffer9</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirect3DVertexBuffer9.h">
+      <Filter>IDirect3DVertexBuffer9</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirect3DTexture9.h">
+      <Filter>IDirect3DTexture9</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirect3DVertexDeclaration9.h">
+      <Filter>IDirect3DVertexDeclaration9</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirect3DVertexShader9.h">
+      <Filter>IDirect3DVertexShader9</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirect3DPixelShader9.h">
+      <Filter>IDirect3DPixelShader9</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirect3DStateBlock9.h">
+      <Filter>IDirect3DStateBlock9</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirect3DCubeTexture9.h">
+      <Filter>IDirect3DCubeTexture9</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

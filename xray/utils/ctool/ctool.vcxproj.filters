@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PPMTrain">
+      <UniqueIdentifier>{a45199df-0c94-4662-bfec-d71c414a63c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PPMTrain.cpp">
+      <Filter>PPMTrain</Filter>
+    </ClCompile>
+    <ClCompile Include="ctool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="PPMT_SA.hpp">
+      <Filter>PPMTrain</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

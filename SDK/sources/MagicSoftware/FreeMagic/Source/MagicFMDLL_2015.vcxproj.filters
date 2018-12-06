@@ -1,0 +1,1787 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Approximation2D">
+      <UniqueIdentifier>{330c1b0a-994e-4a6a-aa1c-ed40f2072c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Approximation2D\Source Files %28Approximation2D%29">
+      <UniqueIdentifier>{8d9b28ef-ee3b-47cc-8afe-484fdfcf45f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Approximation2D\Header Files %28Approximation2D%29">
+      <UniqueIdentifier>{883d22af-c779-45a3-933b-f71210633a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Approximation3D">
+      <UniqueIdentifier>{48a51f4e-8458-4a0e-88ce-1ec13d2605b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Approximation3D\Source Files %28Approximation3D%29">
+      <UniqueIdentifier>{0ad995c4-4f45-43a3-ae0a-9d86bd264622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Approximation3D\Header Files %28Approximation3D%29">
+      <UniqueIdentifier>{2993031e-7853-4dfa-8560-c18aceec7bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containment2D">
+      <UniqueIdentifier>{50c4210f-024f-4dd6-b932-da9e63ca6126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containment2D\Source Files %28Containment2D%29">
+      <UniqueIdentifier>{db1fc823-8f53-470c-8041-59d12f817d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containment2D\Header Files %28Containment2D%29">
+      <UniqueIdentifier>{ea849dc2-b52c-4bf5-ba42-6217aa473ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containment2D\Inline Files %28Containment2D%29">
+      <UniqueIdentifier>{654398fb-4cc9-4bad-a281-05118a7970c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containment3D">
+      <UniqueIdentifier>{a1e7ab79-eb28-4d92-afee-33515d4c824a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containment3D\Source Files %28Containment3D%29">
+      <UniqueIdentifier>{3018f1c7-08f2-4242-a7f8-6bdfcca2173f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containment3D\Header Files %28Containment3D%29">
+      <UniqueIdentifier>{d2a9a4eb-1c71-43b2-bee6-cdbf7becd33f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containment3D\Inline Files %28Containment3D%29">
+      <UniqueIdentifier>{8c92bcc7-88c1-42fd-b84b-eeee820682b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3e9adcba-212d-4d0c-a924-60bbbb82b6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Files %28Core%29">
+      <UniqueIdentifier>{e7db9434-aac1-4bb9-88cb-7e60dc2ee04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Header Files %28Core%29">
+      <UniqueIdentifier>{640e3487-c393-40a5-b6bd-4eb8acbaffb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Inline Files %28Core%29">
+      <UniqueIdentifier>{4e227dfc-b51f-4ab6-8985-847465992ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core2D">
+      <UniqueIdentifier>{80b0326c-bc72-465e-9c3f-08f70d44b7e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core2D\Source Files %28Core2D%29">
+      <UniqueIdentifier>{517fd128-eb8b-422d-8cd5-81b1baa24650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core2D\Header Files %28Core2D%29">
+      <UniqueIdentifier>{1fb1883a-f244-46c2-90ba-f3bfc8255319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core2D\Inline Files %28Core2D%29">
+      <UniqueIdentifier>{25683c31-b7b7-4494-8c83-6c4e84d9f0dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core3D">
+      <UniqueIdentifier>{7efc104b-1b53-4604-873a-ea6d58ace224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core3D\Source Files %28Core3D%29">
+      <UniqueIdentifier>{b6c768cb-3746-4a64-94e2-6c9e1988311b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core3D\Header Files %28Core3D%29">
+      <UniqueIdentifier>{3e160208-61a1-48dc-8da1-ad1c5a9573b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core3D\Inline Files %28Core3D%29">
+      <UniqueIdentifier>{0277dd59-e41e-4b40-9655-8c6c15bbfcf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curve2D">
+      <UniqueIdentifier>{50b7decf-7f3f-43fd-8080-fd0c5209fc6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curve2D\Source Files %28Curve2D%29">
+      <UniqueIdentifier>{402fd7e6-025b-4245-a130-3284fa90bbf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curve2D\Header Files %28Curve2D%29">
+      <UniqueIdentifier>{d99f4645-e0c7-4d82-8fe8-e328e40851f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curve2D\Inline Files %28Curve2D%29">
+      <UniqueIdentifier>{86466b46-b99d-475c-a1f3-cd933765bb1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curve3D">
+      <UniqueIdentifier>{ab1a09b8-1f05-473c-a2b0-f8b4592477b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curve3D\Source Files %28Curve3D%29">
+      <UniqueIdentifier>{6f46e76d-bafd-4b2b-b0b5-a12aef7d9224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curve3D\Header Files %28Curve3D%29">
+      <UniqueIdentifier>{6f445baa-5a64-4ed4-8053-4580d04e84a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curve3D\Inline Files %28Curve3D%29">
+      <UniqueIdentifier>{3e3a39ba-de4a-49ad-a813-3ad8afd90c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Distance2D">
+      <UniqueIdentifier>{a34badae-4557-4d9a-a46c-86f3dc8d1635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Distance2D\Source Files %28Distance2D%29">
+      <UniqueIdentifier>{d9a7e28b-83fb-4400-8dc6-a68ae0bd01d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Distance2D\Header Files %28Distance2D%29">
+      <UniqueIdentifier>{b23a7488-6f08-419d-b31f-c41cc381fa9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Distance3D">
+      <UniqueIdentifier>{44aff10e-a9f2-4907-8daf-1b6b9c471ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Distance3D\Source Files %28Distance3D%29">
+      <UniqueIdentifier>{de51e9c8-4d5f-490c-8a12-8f193cfebee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Distance3D\Header Files %28Distance3D%29">
+      <UniqueIdentifier>{4c4f0730-aad4-48d9-b6b1-351ca619a8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageAnalysis">
+      <UniqueIdentifier>{95e104b2-b758-486e-bcc6-7b87b392edb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageAnalysis\Source Files %28ImageAnalysis%29">
+      <UniqueIdentifier>{dfa7f85b-ef14-4ffe-8bf0-1e9ce698ec76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageAnalysis\Header Files %28Image Analysis%29">
+      <UniqueIdentifier>{efb04247-cf69-488e-923a-6abaf0cb9ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageAnalysis\Inline Files %28ImageAnalysis%29">
+      <UniqueIdentifier>{30d4f1cb-529e-48a2-846e-f8a42b27fd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation1D">
+      <UniqueIdentifier>{df5691b8-c03a-4042-b4a5-ecf3b62fb552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation1D\Source Files %28Interpolation1D%29">
+      <UniqueIdentifier>{1fd62cd1-54a6-4d82-9de5-9617ede8056f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation1D\Header Files %28Interpolation1D%29">
+      <UniqueIdentifier>{453b76fc-85e8-447a-afac-1c0372748718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation1D\Inline Files %28Interpolation1D%29">
+      <UniqueIdentifier>{fa8ce303-4386-4813-ad11-2b1172e80273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation2D">
+      <UniqueIdentifier>{f5e59594-efe8-4f27-aae9-3a5dfe6e405e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation2D\Source Files %28Interpolation2D%29">
+      <UniqueIdentifier>{f8855be0-9236-47d6-8e9a-d881fe4b6e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation2D\Header Files %28Interpolation2D%29">
+      <UniqueIdentifier>{7e3b23f1-fe5d-40db-a059-8c1f581d79af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation2D\Inline Files %28Interpolation2D%29">
+      <UniqueIdentifier>{e6078511-d5df-4297-a37b-23db3368ff6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation3D">
+      <UniqueIdentifier>{543bd062-4322-4298-9e9a-2e275559896d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation3D\Source Files %28Interpolation3D%29">
+      <UniqueIdentifier>{befb55c9-856a-48f8-8003-442f5483f023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation3D\Header Files %28Interpolation3D%29">
+      <UniqueIdentifier>{e8d347b3-23a0-4432-a3c2-d6fadab670b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpolation3D\Inline Files %28Interpolation3D%29">
+      <UniqueIdentifier>{b83698f1-eccc-4db1-b361-6f6e4b576fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intersection2D">
+      <UniqueIdentifier>{c7d4c2e8-8f1a-40c5-b2d1-55fdd9296dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intersection2D\Source Files %28Intersection2D%29">
+      <UniqueIdentifier>{388df8a5-73bd-4855-acf3-90e6e5bb5c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intersection2D\Header Files %28Intersection2D%29">
+      <UniqueIdentifier>{c4baf38b-05ae-4116-9a1e-d69e7dbe9630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intersection3D">
+      <UniqueIdentifier>{eafac323-7a31-41e1-add1-a2cd2215e0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intersection3D\Source Files %28Intersection3D%29">
+      <UniqueIdentifier>{6e40b3fc-9a9e-48e5-b20e-df7ac27acf9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intersection3D\Header Files %28Intersection3D%29">
+      <UniqueIdentifier>{17eec625-ef68-4800-925d-7dcb6c847ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Numerics">
+      <UniqueIdentifier>{7dd28ea0-4cc9-4dc9-b37b-1511f0c18b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Numerics\Source Files %28Numerics%29">
+      <UniqueIdentifier>{23180c11-8946-4623-baf2-f04851a3dcaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Numerics\Header Files %28Numerics%29">
+      <UniqueIdentifier>{15fd0d9b-7360-4e29-9af9-da6add4dc0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Numerics\Inline Files %28Numerics%29">
+      <UniqueIdentifier>{4556056d-e819-40e9-8f65-a55e0cf61c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projection">
+      <UniqueIdentifier>{0caf82cc-5e0f-4822-b672-4961597a5cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projection\Source Files %28Projection%29">
+      <UniqueIdentifier>{457bfd81-a7f2-4164-b405-d6e22fac6ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projection\Header Files %28Projection%29">
+      <UniqueIdentifier>{7a8dd302-bf7e-4b19-95f4-e62526eccac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projection\Inline Files %28Projection%29">
+      <UniqueIdentifier>{5effbe2d-278b-49cb-96ea-a898ae2d6288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface">
+      <UniqueIdentifier>{7b8f9fb0-8d07-41d4-931c-d6ca84119ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\Source Files %28Surface%29">
+      <UniqueIdentifier>{e5df97b6-00be-4a38-bb76-5219f5f1a649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\Header Files %28Surface%29">
+      <UniqueIdentifier>{fbe5afeb-f1bf-47ab-a6e1-55f900a70a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Surface\Inline Files %28Surface%29">
+      <UniqueIdentifier>{d33a4132-3f7f-402e-b533-51351c72b8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tessellation2D">
+      <UniqueIdentifier>{63c13996-b67e-4e0b-be9b-c4deef99f281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tessellation2D\Source Files %28Tessellation2D%29">
+      <UniqueIdentifier>{8d5d77aa-9b7d-440e-9da7-7125ae0d03ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tessellation2D\Header Files %28Tessellation2D%29">
+      <UniqueIdentifier>{748a24a4-0077-44b6-8c53-3b301ac06dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tessellation2D\Inline Files %28Tessellation2D%29">
+      <UniqueIdentifier>{8049ff1e-90a6-4934-a085-dfc6807c7c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tessellation3D">
+      <UniqueIdentifier>{3674416e-230b-42d0-93bc-ad06676190a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tessellation3D\Source Files %28Tessellation3D%29">
+      <UniqueIdentifier>{d133b841-ddec-4115-95aa-e79fbdc813a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tessellation3D\Header Files %28Tessellation3D%29">
+      <UniqueIdentifier>{b14bd18b-690d-42a2-ba31-e63e4d8a72df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tessellation3D\Inline Files %28Tessellation3D%29">
+      <UniqueIdentifier>{7449d0a5-270b-4e5f-a8fd-6d0dc5d9446f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Approximation2D\MgcApproximation2D.pkg">
+      <Filter>Approximation2D</Filter>
+    </None>
+    <None Include="Approximation3D\MgcApproximation3D.pkg">
+      <Filter>Approximation3D</Filter>
+    </None>
+    <None Include="Containment2D\MgcContainment2D.pkg">
+      <Filter>Containment2D</Filter>
+    </None>
+    <None Include="Containment2D\MgcConvexHull2D.inl">
+      <Filter>Containment2D\Inline Files %28Containment2D%29</Filter>
+    </None>
+    <None Include="Containment3D\MgcContainment3D.pkg">
+      <Filter>Containment3D</Filter>
+    </None>
+    <None Include="Containment3D\MgcConvexHull3D.inl">
+      <Filter>Containment3D\Inline Files %28Containment3D%29</Filter>
+    </None>
+    <None Include="Core\MgcCore.pkg">
+      <Filter>Core</Filter>
+    </None>
+    <None Include="Core\MgcColorRGB.inl">
+      <Filter>Core\Inline Files %28Core%29</Filter>
+    </None>
+    <None Include="Core\MgcEdgeMesh.inl">
+      <Filter>Core\Inline Files %28Core%29</Filter>
+    </None>
+    <None Include="Core\MgcMath.inl">
+      <Filter>Core\Inline Files %28Core%29</Filter>
+    </None>
+    <None Include="Core\MgcMTEdge.inl">
+      <Filter>Core\Inline Files %28Core%29</Filter>
+    </None>
+    <None Include="Core\MgcMTIEdge.inl">
+      <Filter>Core\Inline Files %28Core%29</Filter>
+    </None>
+    <None Include="Core\MgcMTITriangle.inl">
+      <Filter>Core\Inline Files %28Core%29</Filter>
+    </None>
+    <None Include="Core\MgcMTIVertex.inl">
+      <Filter>Core\Inline Files %28Core%29</Filter>
+    </None>
+    <None Include="Core\MgcMTMesh.inl">
+      <Filter>Core\Inline Files %28Core%29</Filter>
+    </None>
+    <None Include="Core\MgcMTTriangle.inl">
+      <Filter>Core\Inline Files %28Core%29</Filter>
+    </None>
+    <None Include="Core\MgcMTVertex.inl">
+      <Filter>Core\Inline Files %28Core%29</Filter>
+    </None>
+    <None Include="Core\MgcSmallSet.inl">
+      <Filter>Core\Inline Files %28Core%29</Filter>
+    </None>
+    <None Include="Core\MgcTriangleMesh.inl">
+      <Filter>Core\Inline Files %28Core%29</Filter>
+    </None>
+    <None Include="Core\MgcTUnorderedSet.inl">
+      <Filter>Core\Inline Files %28Core%29</Filter>
+    </None>
+    <None Include="Core2D\MgcCore2D.pkg">
+      <Filter>Core2D</Filter>
+    </None>
+    <None Include="Core2D\MgcArc2.inl">
+      <Filter>Core2D\Inline Files %28Core2D%29</Filter>
+    </None>
+    <None Include="Core2D\MgcBox2.inl">
+      <Filter>Core2D\Inline Files %28Core2D%29</Filter>
+    </None>
+    <None Include="Core2D\MgcCircle2.inl">
+      <Filter>Core2D\Inline Files %28Core2D%29</Filter>
+    </None>
+    <None Include="Core2D\MgcDisk2.inl">
+      <Filter>Core2D\Inline Files %28Core2D%29</Filter>
+    </None>
+    <None Include="Core2D\MgcEllipse2.inl">
+      <Filter>Core2D\Inline Files %28Core2D%29</Filter>
+    </None>
+    <None Include="Core2D\MgcLine2.inl">
+      <Filter>Core2D\Inline Files %28Core2D%29</Filter>
+    </None>
+    <None Include="Core2D\MgcMatrix2.inl">
+      <Filter>Core2D\Inline Files %28Core2D%29</Filter>
+    </None>
+    <None Include="Core2D\MgcRay2.inl">
+      <Filter>Core2D\Inline Files %28Core2D%29</Filter>
+    </None>
+    <None Include="Core2D\MgcSegment2.inl">
+      <Filter>Core2D\Inline Files %28Core2D%29</Filter>
+    </None>
+    <None Include="Core2D\MgcTriangle2.inl">
+      <Filter>Core2D\Inline Files %28Core2D%29</Filter>
+    </None>
+    <None Include="Core2D\MgcVector2.inl">
+      <Filter>Core2D\Inline Files %28Core2D%29</Filter>
+    </None>
+    <None Include="Core3D\MgcCore3D.pkg">
+      <Filter>Core3D</Filter>
+    </None>
+    <None Include="Core3D\MgcMatrix3.inl">
+      <Filter>Core3D\Inline Files %28Core3D%29</Filter>
+    </None>
+    <None Include="Core3D\MgcTetrahedron.inl">
+      <Filter>Core3D\Inline Files %28Core3D%29</Filter>
+    </None>
+    <None Include="Curve2D\MgcCurve2D.pkg">
+      <Filter>Curve2D</Filter>
+    </None>
+    <None Include="Curve2D\MgcBezierCurve2.inl">
+      <Filter>Curve2D\Inline Files %28Curve2D%29</Filter>
+    </None>
+    <None Include="Curve2D\MgcCubicPolynomialCurve2.inl">
+      <Filter>Curve2D\Inline Files %28Curve2D%29</Filter>
+    </None>
+    <None Include="Curve2D\MgcCurve2.inl">
+      <Filter>Curve2D\Inline Files %28Curve2D%29</Filter>
+    </None>
+    <None Include="Curve2D\MgcNaturalSpline2.inl">
+      <Filter>Curve2D\Inline Files %28Curve2D%29</Filter>
+    </None>
+    <None Include="Curve2D\MgcPolynomialCurve2.inl">
+      <Filter>Curve2D\Inline Files %28Curve2D%29</Filter>
+    </None>
+    <None Include="Curve2D\MgcTCBSpline2.inl">
+      <Filter>Curve2D\Inline Files %28Curve2D%29</Filter>
+    </None>
+    <None Include="Curve3D\MgcCurve3D.pkg">
+      <Filter>Curve3D</Filter>
+    </None>
+    <None Include="Curve3D\MgcBezierCurve3.inl">
+      <Filter>Curve3D\Inline Files %28Curve3D%29</Filter>
+    </None>
+    <None Include="Curve3D\MgcCubicPolynomialCurve3.inl">
+      <Filter>Curve3D\Inline Files %28Curve3D%29</Filter>
+    </None>
+    <None Include="Curve3D\MgcCurve3.inl">
+      <Filter>Curve3D\Inline Files %28Curve3D%29</Filter>
+    </None>
+    <None Include="Curve3D\MgcNaturalSpline3.inl">
+      <Filter>Curve3D\Inline Files %28Curve3D%29</Filter>
+    </None>
+    <None Include="Curve3D\MgcPolynomialCurve3.inl">
+      <Filter>Curve3D\Inline Files %28Curve3D%29</Filter>
+    </None>
+    <None Include="Curve3D\MgcTCBSpline3.inl">
+      <Filter>Curve3D\Inline Files %28Curve3D%29</Filter>
+    </None>
+    <None Include="Distance2D\MgcDistance2D.pkg">
+      <Filter>Distance2D</Filter>
+    </None>
+    <None Include="Distance3D\MgcDistance3D.pkg">
+      <Filter>Distance3D</Filter>
+    </None>
+    <None Include="ImageAnalysis\MgcImageAnalysis.pkg">
+      <Filter>ImageAnalysis</Filter>
+    </None>
+    <None Include="ImageAnalysis\MgcElement.inl">
+      <Filter>ImageAnalysis\Inline Files %28ImageAnalysis%29</Filter>
+    </None>
+    <None Include="ImageAnalysis\MgcLattice.inl">
+      <Filter>ImageAnalysis\Inline Files %28ImageAnalysis%29</Filter>
+    </None>
+    <None Include="ImageAnalysis\MgcTImage.inl">
+      <Filter>ImageAnalysis\Inline Files %28ImageAnalysis%29</Filter>
+    </None>
+    <None Include="ImageAnalysis\MgcTImage2D.inl">
+      <Filter>ImageAnalysis\Inline Files %28ImageAnalysis%29</Filter>
+    </None>
+    <None Include="ImageAnalysis\MgcTImage3D.inl">
+      <Filter>ImageAnalysis\Inline Files %28ImageAnalysis%29</Filter>
+    </None>
+    <None Include="Interpolation1D\MgcInterpolation1D.pkg">
+      <Filter>Interpolation1D</Filter>
+    </None>
+    <None Include="Interpolation1D\MgcInterp1DAkima.inl">
+      <Filter>Interpolation1D\Inline Files %28Interpolation1D%29</Filter>
+    </None>
+    <None Include="Interpolation1D\MgcInterp1DAkimaNonuniform.inl">
+      <Filter>Interpolation1D\Inline Files %28Interpolation1D%29</Filter>
+    </None>
+    <None Include="Interpolation1D\MgcInterp1DAkimaUniform.inl">
+      <Filter>Interpolation1D\Inline Files %28Interpolation1D%29</Filter>
+    </None>
+    <None Include="Interpolation1D\MgcInterp1DBSplineUniform.inl">
+      <Filter>Interpolation1D\Inline Files %28Interpolation1D%29</Filter>
+    </None>
+    <None Include="Interpolation1D\MgcInterpBSplineUniform.inl">
+      <Filter>Interpolation1D\Inline Files %28Interpolation1D%29</Filter>
+    </None>
+    <None Include="Interpolation2D\MgcInterpolation2D.pkg">
+      <Filter>Interpolation2D</Filter>
+    </None>
+    <None Include="Interpolation2D\MgcInterp2DAkimaUniform.inl">
+      <Filter>Interpolation2D\Inline Files %28Interpolation2D%29</Filter>
+    </None>
+    <None Include="Interpolation2D\MgcInterp2DBicubic.inl">
+      <Filter>Interpolation2D\Inline Files %28Interpolation2D%29</Filter>
+    </None>
+    <None Include="Interpolation2D\MgcInterp2DBSplineUniform.inl">
+      <Filter>Interpolation2D\Inline Files %28Interpolation2D%29</Filter>
+    </None>
+    <None Include="Interpolation3D\MgcInterpolation3D.pkg">
+      <Filter>Interpolation3D</Filter>
+    </None>
+    <None Include="Interpolation3D\MgcInterp3DAkimaUniform.inl">
+      <Filter>Interpolation3D\Inline Files %28Interpolation3D%29</Filter>
+    </None>
+    <None Include="Interpolation3D\MgcInterp3DBSplineUniform.inl">
+      <Filter>Interpolation3D\Inline Files %28Interpolation3D%29</Filter>
+    </None>
+    <None Include="Interpolation3D\MgcInterp4DBSplineUniform.inl">
+      <Filter>Interpolation3D\Inline Files %28Interpolation3D%29</Filter>
+    </None>
+    <None Include="Intersection2D\MgcIntersection2D.pkg">
+      <Filter>Intersection2D</Filter>
+    </None>
+    <None Include="Intersection3D\MgcIntersection3D.pkg">
+      <Filter>Intersection3D</Filter>
+    </None>
+    <None Include="Numerics\MgcNumerics.pkg">
+      <Filter>Numerics</Filter>
+    </None>
+    <None Include="Numerics\MgcEigen.inl">
+      <Filter>Numerics\Inline Files %28Numerics%29</Filter>
+    </None>
+    <None Include="Numerics\MgcEuler.inl">
+      <Filter>Numerics\Inline Files %28Numerics%29</Filter>
+    </None>
+    <None Include="Numerics\MgcLinearSystem.inl">
+      <Filter>Numerics\Inline Files %28Numerics%29</Filter>
+    </None>
+    <None Include="Numerics\MgcMidpoint.inl">
+      <Filter>Numerics\Inline Files %28Numerics%29</Filter>
+    </None>
+    <None Include="Numerics\MgcMinimize1D.inl">
+      <Filter>Numerics\Inline Files %28Numerics%29</Filter>
+    </None>
+    <None Include="Numerics\MgcMinimizeND.inl">
+      <Filter>Numerics\Inline Files %28Numerics%29</Filter>
+    </None>
+    <None Include="Numerics\MgcODE.inl">
+      <Filter>Numerics\Inline Files %28Numerics%29</Filter>
+    </None>
+    <None Include="Numerics\MgcRK4.inl">
+      <Filter>Numerics\Inline Files %28Numerics%29</Filter>
+    </None>
+    <None Include="Numerics\MgcRK4Adapt.inl">
+      <Filter>Numerics\Inline Files %28Numerics%29</Filter>
+    </None>
+    <None Include="Projection\MgcProjection.pkg">
+      <Filter>Projection</Filter>
+    </None>
+    <None Include="Projection\MgcConvexClipper.inl">
+      <Filter>Projection\Inline Files %28Projection%29</Filter>
+    </None>
+    <None Include="Projection\MgcConvexPolyhedron.inl">
+      <Filter>Projection\Inline Files %28Projection%29</Filter>
+    </None>
+    <None Include="Surface\MgcSurface.pkg">
+      <Filter>Surface</Filter>
+    </None>
+    <None Include="Surface\MgcBezierCylinderG.inl">
+      <Filter>Surface\Inline Files %28Surface%29</Filter>
+    </None>
+    <None Include="Surface\MgcBezierPatchG.inl">
+      <Filter>Surface\Inline Files %28Surface%29</Filter>
+    </None>
+    <None Include="Surface\MgcTubeSurfaceG.inl">
+      <Filter>Surface\Inline Files %28Surface%29</Filter>
+    </None>
+    <None Include="Tessellation2D\MgcTessellation2D.pkg">
+      <Filter>Tessellation2D</Filter>
+    </None>
+    <None Include="Tessellation2D\MgcDelaunay2D.inl">
+      <Filter>Tessellation2D\Inline Files %28Tessellation2D%29</Filter>
+    </None>
+    <None Include="Tessellation3D\MgcTessellation3D.pkg">
+      <Filter>Tessellation3D</Filter>
+    </None>
+    <None Include="Tessellation3D\MgcDelaunay3D.inl">
+      <Filter>Tessellation3D\Inline Files %28Tessellation3D%29</Filter>
+    </None>
+    <None Include="MagicFM.pkg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Approximation2D\MgcAppr2DCircleFit.cpp">
+      <Filter>Approximation2D\Source Files %28Approximation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation2D\MgcAppr2DEllipseByArcs.cpp">
+      <Filter>Approximation2D\Source Files %28Approximation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation2D\MgcAppr2DEllipseFit.cpp">
+      <Filter>Approximation2D\Source Files %28Approximation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation2D\MgcAppr2DGaussPointsFit.cpp">
+      <Filter>Approximation2D\Source Files %28Approximation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation2D\MgcAppr2DLineFit.cpp">
+      <Filter>Approximation2D\Source Files %28Approximation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation2D\MgcAppr2DQuadraticFit.cpp">
+      <Filter>Approximation2D\Source Files %28Approximation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation3D\MgcAppr3DEllipsoidFit.cpp">
+      <Filter>Approximation3D\Source Files %28Approximation3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation3D\MgcAppr3DGaussPointsFit.cpp">
+      <Filter>Approximation3D\Source Files %28Approximation3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation3D\MgcAppr3DLineFit.cpp">
+      <Filter>Approximation3D\Source Files %28Approximation3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation3D\MgcAppr3DParaboloidFit.cpp">
+      <Filter>Approximation3D\Source Files %28Approximation3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation3D\MgcAppr3DPlaneFit.cpp">
+      <Filter>Approximation3D\Source Files %28Approximation3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation3D\MgcAppr3DQuadraticFit.cpp">
+      <Filter>Approximation3D\Source Files %28Approximation3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Approximation3D\MgcAppr3DSphereFit.cpp">
+      <Filter>Approximation3D\Source Files %28Approximation3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment2D\MgcCont2DBox.cpp">
+      <Filter>Containment2D\Source Files %28Containment2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment2D\MgcCont2DCircleScribe.cpp">
+      <Filter>Containment2D\Source Files %28Containment2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment2D\MgcCont2DEllipse.cpp">
+      <Filter>Containment2D\Source Files %28Containment2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment2D\MgcCont2DMinBox.cpp">
+      <Filter>Containment2D\Source Files %28Containment2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment2D\MgcCont2DMinCircle.cpp">
+      <Filter>Containment2D\Source Files %28Containment2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment2D\MgcCont2DPointInPolygon.cpp">
+      <Filter>Containment2D\Source Files %28Containment2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment2D\MgcConvexHull2D.cpp">
+      <Filter>Containment2D\Source Files %28Containment2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment2D\MgcMinAreaEllipseCR.cpp">
+      <Filter>Containment2D\Source Files %28Containment2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment2D\MgcSeparatePointSets2D.cpp">
+      <Filter>Containment2D\Source Files %28Containment2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment3D\MgcCont3DBox.cpp">
+      <Filter>Containment3D\Source Files %28Containment3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment3D\MgcCont3DCapsule.cpp">
+      <Filter>Containment3D\Source Files %28Containment3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment3D\MgcCont3DCircleSphereScribe.cpp">
+      <Filter>Containment3D\Source Files %28Containment3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment3D\MgcCont3DCylinder.cpp">
+      <Filter>Containment3D\Source Files %28Containment3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment3D\MgcCont3DEllipsoid.cpp">
+      <Filter>Containment3D\Source Files %28Containment3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment3D\MgcCont3DLozenge.cpp">
+      <Filter>Containment3D\Source Files %28Containment3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment3D\MgcCont3DMinBox.cpp">
+      <Filter>Containment3D\Source Files %28Containment3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment3D\MgcCont3DMinSphere.cpp">
+      <Filter>Containment3D\Source Files %28Containment3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment3D\MgcCont3DSphere.cpp">
+      <Filter>Containment3D\Source Files %28Containment3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment3D\MgcConvexHull3D.cpp">
+      <Filter>Containment3D\Source Files %28Containment3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment3D\MgcMinVolumeEllipsoidCR.cpp">
+      <Filter>Containment3D\Source Files %28Containment3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Containment3D\MgcSeparatePointSets3D.cpp">
+      <Filter>Containment3D\Source Files %28Containment3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MgcColorRGB.cpp">
+      <Filter>Core\Source Files %28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MgcCommand.cpp">
+      <Filter>Core\Source Files %28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MgcEdgeMesh.cpp">
+      <Filter>Core\Source Files %28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MgcIntervalIntersection.cpp">
+      <Filter>Core\Source Files %28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MgcMath.cpp">
+      <Filter>Core\Source Files %28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MgcMTEdge.cpp">
+      <Filter>Core\Source Files %28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MgcMTMesh.cpp">
+      <Filter>Core\Source Files %28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MgcMTTriangle.cpp">
+      <Filter>Core\Source Files %28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MgcMTVertex.cpp">
+      <Filter>Core\Source Files %28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MgcPolynomial.cpp">
+      <Filter>Core\Source Files %28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MgcTriangleMesh.cpp">
+      <Filter>Core\Source Files %28Core%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core2D\MgcBox2.cpp">
+      <Filter>Core2D\Source Files %28Core2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core2D\MgcMatrix2.cpp">
+      <Filter>Core2D\Source Files %28Core2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core2D\MgcVector2.cpp">
+      <Filter>Core2D\Source Files %28Core2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core3D\MgcBox3.cpp">
+      <Filter>Core3D\Source Files %28Core3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core3D\MgcExtraSpin.cpp">
+      <Filter>Core3D\Source Files %28Core3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core3D\MgcFrustum.cpp">
+      <Filter>Core3D\Source Files %28Core3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core3D\MgcMatrix3.cpp">
+      <Filter>Core3D\Source Files %28Core3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core3D\MgcPlane.cpp">
+      <Filter>Core3D\Source Files %28Core3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core3D\MgcQuaternion.cpp">
+      <Filter>Core3D\Source Files %28Core3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core3D\MgcTetrahedron.cpp">
+      <Filter>Core3D\Source Files %28Core3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core3D\MgcTorus.cpp">
+      <Filter>Core3D\Source Files %28Core3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core3D\MgcVector3.cpp">
+      <Filter>Core3D\Source Files %28Core3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Core3D\MgcXFormInterp.cpp">
+      <Filter>Core3D\Source Files %28Core3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve2D\MgcBezierCurve2.cpp">
+      <Filter>Curve2D\Source Files %28Curve2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve2D\MgcCubicPolynomialCurve2.cpp">
+      <Filter>Curve2D\Source Files %28Curve2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve2D\MgcCurve2.cpp">
+      <Filter>Curve2D\Source Files %28Curve2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve2D\MgcMultipleCurve2.cpp">
+      <Filter>Curve2D\Source Files %28Curve2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve2D\MgcNaturalSpline2.cpp">
+      <Filter>Curve2D\Source Files %28Curve2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve2D\MgcPolynomialCurve2.cpp">
+      <Filter>Curve2D\Source Files %28Curve2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve2D\MgcSingleCurve2.cpp">
+      <Filter>Curve2D\Source Files %28Curve2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve2D\MgcTCBSpline2.cpp">
+      <Filter>Curve2D\Source Files %28Curve2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve3D\MgcBezierCurve3.cpp">
+      <Filter>Curve3D\Source Files %28Curve3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve3D\MgcCubicPolynomialCurve3.cpp">
+      <Filter>Curve3D\Source Files %28Curve3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve3D\MgcCurve3.cpp">
+      <Filter>Curve3D\Source Files %28Curve3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve3D\MgcMultipleCurve3.cpp">
+      <Filter>Curve3D\Source Files %28Curve3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve3D\MgcNaturalSpline3.cpp">
+      <Filter>Curve3D\Source Files %28Curve3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve3D\MgcPolynomialCurve3.cpp">
+      <Filter>Curve3D\Source Files %28Curve3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve3D\MgcSingleCurve3.cpp">
+      <Filter>Curve3D\Source Files %28Curve3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve3D\MgcTCBSpline3.cpp">
+      <Filter>Curve3D\Source Files %28Curve3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance2D\MgcDist2DVecElp.cpp">
+      <Filter>Distance2D\Source Files %28Distance2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance2D\MgcDist2DVecQdr.cpp">
+      <Filter>Distance2D\Source Files %28Distance2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DCirCir.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DLinBox.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DLinCir.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DLinLin.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DLinPgm.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DLinRct.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DLinTri.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DPgmPgm.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DRctRct.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DTriPgm.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DTriRct.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DTriTri.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DVecBox.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DVecCir.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DVecElp.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DVecFrustum.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DVecLin.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DVecPgm.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DVecPln.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DVecQdr.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DVecRct.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcDist3DVecTri.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Distance3D\MgcEllipsoidGeodesicDist.cpp">
+      <Filter>Distance3D\Source Files %28Distance3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\MgcBinary2D.cpp">
+      <Filter>ImageAnalysis\Source Files %28ImageAnalysis%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\MgcElement.cpp">
+      <Filter>ImageAnalysis\Source Files %28ImageAnalysis%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\MgcImageConvert.cpp">
+      <Filter>ImageAnalysis\Source Files %28ImageAnalysis%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\MgcImages.cpp">
+      <Filter>ImageAnalysis\Source Files %28ImageAnalysis%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnalysis\MgcLattice.cpp">
+      <Filter>ImageAnalysis\Source Files %28ImageAnalysis%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation1D\MgcInterp1DAkima.cpp">
+      <Filter>Interpolation1D\Source Files %28Interpolation1D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation1D\MgcInterp1DAkimaNonuniform.cpp">
+      <Filter>Interpolation1D\Source Files %28Interpolation1D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation1D\MgcInterp1DAkimaUniform.cpp">
+      <Filter>Interpolation1D\Source Files %28Interpolation1D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation1D\MgcInterp1DBSplineUniform.cpp">
+      <Filter>Interpolation1D\Source Files %28Interpolation1D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation1D\MgcInterpBSplineUniform.cpp">
+      <Filter>Interpolation1D\Source Files %28Interpolation1D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation2D\MgcInterp2DAkimaUniform.cpp">
+      <Filter>Interpolation2D\Source Files %28Interpolation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation2D\MgcInterp2DBicubic.cpp">
+      <Filter>Interpolation2D\Source Files %28Interpolation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation2D\MgcInterp2DBSplineUniform.cpp">
+      <Filter>Interpolation2D\Source Files %28Interpolation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation2D\MgcInterp2DLinearNonuniform.cpp">
+      <Filter>Interpolation2D\Source Files %28Interpolation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation2D\MgcInterp2DQdrNonuniform.cpp">
+      <Filter>Interpolation2D\Source Files %28Interpolation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation2D\MgcInterp2DSphere.cpp">
+      <Filter>Interpolation2D\Source Files %28Interpolation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation2D\MgcInterp2DThinPlateSpline.cpp">
+      <Filter>Interpolation2D\Source Files %28Interpolation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation2D\MgcInterp2DVectorField.cpp">
+      <Filter>Interpolation2D\Source Files %28Interpolation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation3D\MgcInterp3DAkimaUniform.cpp">
+      <Filter>Interpolation3D\Source Files %28Interpolation3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation3D\MgcInterp3DBSplineUniform.cpp">
+      <Filter>Interpolation3D\Source Files %28Interpolation3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation3D\MgcInterp3DThinPlateSpline.cpp">
+      <Filter>Interpolation3D\Source Files %28Interpolation3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation3D\MgcInterp4DBSplineUniform.cpp">
+      <Filter>Interpolation3D\Source Files %28Interpolation3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation3D\MgcInterpNDBSplineUniform.cpp">
+      <Filter>Interpolation3D\Source Files %28Interpolation3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection2D\MgcIntr2DBoxBox.cpp">
+      <Filter>Intersection2D\Source Files %28Intersection2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection2D\MgcIntr2DCirBox.cpp">
+      <Filter>Intersection2D\Source Files %28Intersection2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection2D\MgcIntr2DCirCir.cpp">
+      <Filter>Intersection2D\Source Files %28Intersection2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection2D\MgcIntr2DElpElp.cpp">
+      <Filter>Intersection2D\Source Files %28Intersection2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection2D\MgcIntr2DLinCir.cpp">
+      <Filter>Intersection2D\Source Files %28Intersection2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection2D\MgcIntr2DLinLin.cpp">
+      <Filter>Intersection2D\Source Files %28Intersection2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection2D\MgcIntr2DTriTri.cpp">
+      <Filter>Intersection2D\Source Files %28Intersection2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DBoxBox.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DBoxFrustum.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DCapCap.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DLinBox.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DLinCap.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DLinCone.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DLinCyln.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DLinElp.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DLinLoz.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DLinSphr.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DLinTorus.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DLinTri.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DLozLoz.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DPlnBox.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DPlnCap.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DPlnCyln.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DPlnElp.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DPlnLoz.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DPlnPln.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DPlnSphr.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DSphrCone.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DSphrFrustum.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DSphrSphr.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DTetrTetr.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DTriBox.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DTriCone.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DTriSphr.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection3D\MgcIntr3DTriTri.cpp">
+      <Filter>Intersection3D\Source Files %28Intersection3D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcBisect1.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcBisect2.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcBisect3.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcEigen.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcEuler.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcFastFunction.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcIntegrate.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcLinearSystem.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcMidpoint.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcMinimize1D.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcMinimizeND.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcODE.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcRK4.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcRK4Adapt.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerics\MgcSpecialFunction.cpp">
+      <Filter>Numerics\Source Files %28Numerics%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Projection\MgcConvexClipper.cpp">
+      <Filter>Projection\Source Files %28Projection%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Projection\MgcConvexPolyhedron.cpp">
+      <Filter>Projection\Source Files %28Projection%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Projection\MgcPerspProjEllipsoid.cpp">
+      <Filter>Projection\Source Files %28Projection%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Projection\MgcQuadToQuadTransforms.cpp">
+      <Filter>Projection\Source Files %28Projection%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface\MgcBezierCylinder2G.cpp">
+      <Filter>Surface\Source Files %28Surface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface\MgcBezierCylinder3G.cpp">
+      <Filter>Surface\Source Files %28Surface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface\MgcBezierCylinderG.cpp">
+      <Filter>Surface\Source Files %28Surface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface\MgcBezierPatchG.cpp">
+      <Filter>Surface\Source Files %28Surface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface\MgcBezierRectangle2G.cpp">
+      <Filter>Surface\Source Files %28Surface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface\MgcBezierRectangle3G.cpp">
+      <Filter>Surface\Source Files %28Surface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface\MgcBezierRectangleG.cpp">
+      <Filter>Surface\Source Files %28Surface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface\MgcBezierTriangle2G.cpp">
+      <Filter>Surface\Source Files %28Surface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface\MgcBezierTriangle3G.cpp">
+      <Filter>Surface\Source Files %28Surface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface\MgcBezierTriangleG.cpp">
+      <Filter>Surface\Source Files %28Surface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface\MgcImplicitSurface.cpp">
+      <Filter>Surface\Source Files %28Surface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface\MgcParametricSurface.cpp">
+      <Filter>Surface\Source Files %28Surface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface\MgcQuadricSurface.cpp">
+      <Filter>Surface\Source Files %28Surface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface\MgcTubeSurfaceG.cpp">
+      <Filter>Surface\Source Files %28Surface%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Tessellation2D\MgcDelaunay2D.cpp">
+      <Filter>Tessellation2D\Source Files %28Tessellation2D%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Tessellation3D\MgcDelaunay3D.cpp">
+      <Filter>Tessellation3D\Source Files %28Tessellation3D%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Approximation2D\MgcAppr2DCircleFit.h">
+      <Filter>Approximation2D\Header Files %28Approximation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation2D\MgcAppr2DEllipseByArcs.h">
+      <Filter>Approximation2D\Header Files %28Approximation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation2D\MgcAppr2DEllipseFit.h">
+      <Filter>Approximation2D\Header Files %28Approximation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation2D\MgcAppr2DGaussPointsFit.h">
+      <Filter>Approximation2D\Header Files %28Approximation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation2D\MgcAppr2DLineFit.h">
+      <Filter>Approximation2D\Header Files %28Approximation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation2D\MgcAppr2DQuadraticFit.h">
+      <Filter>Approximation2D\Header Files %28Approximation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation3D\MgcAppr3DEllipsoidFit.h">
+      <Filter>Approximation3D\Header Files %28Approximation3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation3D\MgcAppr3DGaussPointsFit.h">
+      <Filter>Approximation3D\Header Files %28Approximation3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation3D\MgcAppr3DLineFit.h">
+      <Filter>Approximation3D\Header Files %28Approximation3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation3D\MgcAppr3DParaboloidFit.h">
+      <Filter>Approximation3D\Header Files %28Approximation3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation3D\MgcAppr3DPlaneFit.h">
+      <Filter>Approximation3D\Header Files %28Approximation3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation3D\MgcAppr3DQuadraticFit.h">
+      <Filter>Approximation3D\Header Files %28Approximation3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Approximation3D\MgcAppr3DSphereFit.h">
+      <Filter>Approximation3D\Header Files %28Approximation3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment2D\MgcCont2DBox.h">
+      <Filter>Containment2D\Header Files %28Containment2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment2D\MgcCont2DCircleScribe.h">
+      <Filter>Containment2D\Header Files %28Containment2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment2D\MgcCont2DEllipse.h">
+      <Filter>Containment2D\Header Files %28Containment2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment2D\MgcCont2DMinBox.h">
+      <Filter>Containment2D\Header Files %28Containment2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment2D\MgcCont2DMinCircle.h">
+      <Filter>Containment2D\Header Files %28Containment2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment2D\MgcCont2DPointInPolygon.h">
+      <Filter>Containment2D\Header Files %28Containment2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment2D\MgcConvexHull2D.h">
+      <Filter>Containment2D\Header Files %28Containment2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment2D\MgcMinAreaEllipseCR.h">
+      <Filter>Containment2D\Header Files %28Containment2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment2D\MgcSeparatePointSets2D.h">
+      <Filter>Containment2D\Header Files %28Containment2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment3D\MgcCont3DBox.h">
+      <Filter>Containment3D\Header Files %28Containment3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment3D\MgcCont3DCapsule.h">
+      <Filter>Containment3D\Header Files %28Containment3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment3D\MgcCont3DCircleSphereScribe.h">
+      <Filter>Containment3D\Header Files %28Containment3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment3D\MgcCont3DCylinder.h">
+      <Filter>Containment3D\Header Files %28Containment3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment3D\MgcCont3DEllipsoid.h">
+      <Filter>Containment3D\Header Files %28Containment3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment3D\MgcCont3DLozenge.h">
+      <Filter>Containment3D\Header Files %28Containment3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment3D\MgcCont3DMinBox.h">
+      <Filter>Containment3D\Header Files %28Containment3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment3D\MgcCont3DMinSphere.h">
+      <Filter>Containment3D\Header Files %28Containment3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment3D\MgcCont3DSphere.h">
+      <Filter>Containment3D\Header Files %28Containment3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment3D\MgcConvexHull3D.h">
+      <Filter>Containment3D\Header Files %28Containment3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment3D\MgcMinVolumeEllipsoidCR.h">
+      <Filter>Containment3D\Header Files %28Containment3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Containment3D\MgcSeparatePointSets3D.h">
+      <Filter>Containment3D\Header Files %28Containment3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcColorRGB.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcCommand.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcEdgeMesh.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcIntervalIntersection.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcMath.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcMTEdge.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcMTIEdge.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcMTITriangle.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcMTIVertex.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcMTMesh.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcMTTriangle.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcMTVertex.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcPolynomial.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcSmallSet.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcTriangleMesh.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MgcTUnorderedSet.h">
+      <Filter>Core\Header Files %28Core%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core2D\MgcArc2.h">
+      <Filter>Core2D\Header Files %28Core2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core2D\MgcBox2.h">
+      <Filter>Core2D\Header Files %28Core2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core2D\MgcCircle2.h">
+      <Filter>Core2D\Header Files %28Core2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core2D\MgcDisk2.h">
+      <Filter>Core2D\Header Files %28Core2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core2D\MgcEllipse2.h">
+      <Filter>Core2D\Header Files %28Core2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core2D\MgcLine2.h">
+      <Filter>Core2D\Header Files %28Core2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core2D\MgcMatrix2.h">
+      <Filter>Core2D\Header Files %28Core2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core2D\MgcRay2.h">
+      <Filter>Core2D\Header Files %28Core2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core2D\MgcSegment2.h">
+      <Filter>Core2D\Header Files %28Core2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core2D\MgcTriangle2.h">
+      <Filter>Core2D\Header Files %28Core2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core2D\MgcVector2.h">
+      <Filter>Core2D\Header Files %28Core2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcBox3.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcCapsule.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcCircle3.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcCone3.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcCylinder.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcDisk3.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcEllipsoid.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcExtraSpin.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcFrustum.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcLine3.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcLozenge.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcMatrix3.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcParallelogram3.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcPlane.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcQuaternion.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcRay3.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcRectangle3.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcSegment3.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcSphere.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcTetrahedron.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcTorus.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcTriangle3.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcVector3.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Core3D\MgcXFormInterp.h">
+      <Filter>Core3D\Header Files %28Core3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve2D\MgcBezierCurve2.h">
+      <Filter>Curve2D\Header Files %28Curve2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve2D\MgcCubicPolynomialCurve2.h">
+      <Filter>Curve2D\Header Files %28Curve2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve2D\MgcCurve2.h">
+      <Filter>Curve2D\Header Files %28Curve2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve2D\MgcMultipleCurve2.h">
+      <Filter>Curve2D\Header Files %28Curve2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve2D\MgcNaturalSpline2.h">
+      <Filter>Curve2D\Header Files %28Curve2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve2D\MgcPolynomialCurve2.h">
+      <Filter>Curve2D\Header Files %28Curve2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve2D\MgcSingleCurve2.h">
+      <Filter>Curve2D\Header Files %28Curve2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve2D\MgcTCBSpline2.h">
+      <Filter>Curve2D\Header Files %28Curve2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve3D\MgcBezierCurve3.h">
+      <Filter>Curve3D\Header Files %28Curve3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve3D\MgcCubicPolynomialCurve3.h">
+      <Filter>Curve3D\Header Files %28Curve3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve3D\MgcCurve3.h">
+      <Filter>Curve3D\Header Files %28Curve3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve3D\MgcMultipleCurve3.h">
+      <Filter>Curve3D\Header Files %28Curve3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve3D\MgcNaturalSpline3.h">
+      <Filter>Curve3D\Header Files %28Curve3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve3D\MgcPolynomialCurve3.h">
+      <Filter>Curve3D\Header Files %28Curve3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve3D\MgcSingleCurve3.h">
+      <Filter>Curve3D\Header Files %28Curve3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve3D\MgcTCBSpline3.h">
+      <Filter>Curve3D\Header Files %28Curve3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance2D\MgcDist2DVecElp.h">
+      <Filter>Distance2D\Header Files %28Distance2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance2D\MgcDist2DVecQdr.h">
+      <Filter>Distance2D\Header Files %28Distance2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DCirCir.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DLinBox.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DLinCir.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DLinLin.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DLinPgm.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DLinRct.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DLinTri.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DPgmPgm.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DRctRct.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DTriPgm.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DTriRct.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DTriTri.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DVecBox.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DVecCir.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DVecElp.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DVecFrustum.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DVecLin.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DVecPgm.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DVecPln.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DVecQdr.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DVecRct.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcDist3DVecTri.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance3D\MgcEllipsoidGeodesicDist.h">
+      <Filter>Distance3D\Header Files %28Distance3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\MgcBinary2D.h">
+      <Filter>ImageAnalysis\Header Files %28Image Analysis%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\MgcElement.h">
+      <Filter>ImageAnalysis\Header Files %28Image Analysis%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\MgcImageConvert.h">
+      <Filter>ImageAnalysis\Header Files %28Image Analysis%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\MgcImages.h">
+      <Filter>ImageAnalysis\Header Files %28Image Analysis%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\MgcLattice.h">
+      <Filter>ImageAnalysis\Header Files %28Image Analysis%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\MgcTImage.h">
+      <Filter>ImageAnalysis\Header Files %28Image Analysis%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\MgcTImage2D.h">
+      <Filter>ImageAnalysis\Header Files %28Image Analysis%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnalysis\MgcTImage3D.h">
+      <Filter>ImageAnalysis\Header Files %28Image Analysis%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation1D\MgcInterp1DAkima.h">
+      <Filter>Interpolation1D\Header Files %28Interpolation1D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation1D\MgcInterp1DAkimaNonuniform.h">
+      <Filter>Interpolation1D\Header Files %28Interpolation1D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation1D\MgcInterp1DAkimaUniform.h">
+      <Filter>Interpolation1D\Header Files %28Interpolation1D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation1D\MgcInterp1DBSplineUniform.h">
+      <Filter>Interpolation1D\Header Files %28Interpolation1D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation1D\MgcInterpBSplineUniform.h">
+      <Filter>Interpolation1D\Header Files %28Interpolation1D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation2D\MgcInterp2DAkimaUniform.h">
+      <Filter>Interpolation2D\Header Files %28Interpolation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation2D\MgcInterp2DBicubic.h">
+      <Filter>Interpolation2D\Header Files %28Interpolation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation2D\MgcInterp2DBSplineUniform.h">
+      <Filter>Interpolation2D\Header Files %28Interpolation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation2D\MgcInterp2DLinearNonuniform.h">
+      <Filter>Interpolation2D\Header Files %28Interpolation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation2D\MgcInterp2DQdrNonuniform.h">
+      <Filter>Interpolation2D\Header Files %28Interpolation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation2D\MgcInterp2DSphere.h">
+      <Filter>Interpolation2D\Header Files %28Interpolation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation2D\MgcInterp2DThinPlateSpline.h">
+      <Filter>Interpolation2D\Header Files %28Interpolation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation2D\MgcInterp2DVectorField.h">
+      <Filter>Interpolation2D\Header Files %28Interpolation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation3D\MgcInterp3DAkimaUniform.h">
+      <Filter>Interpolation3D\Header Files %28Interpolation3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation3D\MgcInterp3DBSplineUniform.h">
+      <Filter>Interpolation3D\Header Files %28Interpolation3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation3D\MgcInterp3DThinPlateSpline.h">
+      <Filter>Interpolation3D\Header Files %28Interpolation3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation3D\MgcInterp4DBSplineUniform.h">
+      <Filter>Interpolation3D\Header Files %28Interpolation3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation3D\MgcInterpNDBSplineUniform.h">
+      <Filter>Interpolation3D\Header Files %28Interpolation3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection2D\MgcIntr2DBoxBox.h">
+      <Filter>Intersection2D\Header Files %28Intersection2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection2D\MgcIntr2DCirBox.h">
+      <Filter>Intersection2D\Header Files %28Intersection2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection2D\MgcIntr2DCirCir.h">
+      <Filter>Intersection2D\Header Files %28Intersection2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection2D\MgcIntr2DElpElp.h">
+      <Filter>Intersection2D\Header Files %28Intersection2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection2D\MgcIntr2DLinCir.h">
+      <Filter>Intersection2D\Header Files %28Intersection2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection2D\MgcIntr2DLinLin.h">
+      <Filter>Intersection2D\Header Files %28Intersection2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection2D\MgcIntr2DTriTri.h">
+      <Filter>Intersection2D\Header Files %28Intersection2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DBoxBox.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DBoxFrustum.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DCapCap.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DLinBox.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DLinCap.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DLinCone.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DLinCyln.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DLinElp.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DLinLoz.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DLinSphr.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DLinTorus.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DLinTri.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DLozLoz.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DPlnBox.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DPlnCap.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DPlnCyln.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DPlnElp.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DPlnLoz.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DPlnPln.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DPlnSphr.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DSphrCone.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DSphrFrustum.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DSphrSphr.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DTetrTetr.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DTriBox.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DTriCone.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DTriSphr.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection3D\MgcIntr3DTriTri.h">
+      <Filter>Intersection3D\Header Files %28Intersection3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcBisect1.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcBisect2.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcBisect3.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcEigen.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcEuler.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcFastFunction.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcIntegrate.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcLinearSystem.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcMidpoint.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcMinimize1D.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcMinimizeND.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcODE.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcRK4.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcRK4Adapt.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerics\MgcSpecialFunction.h">
+      <Filter>Numerics\Header Files %28Numerics%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Projection\MgcConvexClipper.h">
+      <Filter>Projection\Header Files %28Projection%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Projection\MgcConvexPolyhedron.h">
+      <Filter>Projection\Header Files %28Projection%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Projection\MgcPerspProjEllipsoid.h">
+      <Filter>Projection\Header Files %28Projection%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Projection\MgcQuadToQuadTransforms.h">
+      <Filter>Projection\Header Files %28Projection%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcBezierCylinder2G.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcBezierCylinder3G.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcBezierCylinderG.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcBezierPatchG.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcBezierRectangle2G.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcBezierRectangle3G.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcBezierRectangleG.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcBezierTriangle2G.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcBezierTriangle3G.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcBezierTriangleG.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcImplicitSurface.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcParametricSurface.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcQuadricSurface.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcSurface.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface\MgcTubeSurfaceG.h">
+      <Filter>Surface\Header Files %28Surface%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Tessellation2D\MgcDelaunay2D.h">
+      <Filter>Tessellation2D\Header Files %28Tessellation2D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Tessellation3D\MgcDelaunay3D.h">
+      <Filter>Tessellation3D\Header Files %28Tessellation3D%29</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicFMLibType.h" />
+    <ClInclude Include="MgcRTLib.h" />
+  </ItemGroup>
+</Project>

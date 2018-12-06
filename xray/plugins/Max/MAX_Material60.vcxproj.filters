@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{bf8a6c62-a82f-4794-820c-608cb945ebbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Files">
+      <UniqueIdentifier>{69299998-d651-4398-875f-6dfd24f6a235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Files\Engine">
+      <UniqueIdentifier>{10f628c3-4673-4b58-bd96-2119d883c1ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Files\Editor">
+      <UniqueIdentifier>{6d4707bc-661a-4a39-a0d8-e7d7101ba42d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Material\DllEntry.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\GameMaterial.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Material\stdafx.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\TexMaps.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\GameMtlLib.cpp">
+      <Filter>Shared Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\BlenderListLoader.cpp">
+      <Filter>Shared Files\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\ELog.cpp">
+      <Filter>Shared Files\Editor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shared\GameMaterial.def">
+      <Filter>Kernel</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Shared\GameMaterial.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Material\Stdafx.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\TexMaps.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\XRayMtlRes.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\GameMtlLib.h">
+      <Filter>Shared Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Shader_xrLC.h">
+      <Filter>Shared Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\BlenderListLoader.h">
+      <Filter>Shared Files\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\ELog.h">
+      <Filter>Shared Files\Editor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Material\GameMaterial.rc">
+      <Filter>Kernel</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Material\dmtlbut.bmp" />
+    <Image Include="Material\dmtlmsk.bmp" />
+  </ItemGroup>
+</Project>

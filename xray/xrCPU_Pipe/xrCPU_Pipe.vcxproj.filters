@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{5f855668-70c4-4b3f-8584-6d1781427173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{96db3db8-b40d-4c8d-8718-107a1de78193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skinning">
+      <UniqueIdentifier>{d515a5a4-1b34-4418-908c-ada2baca2cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{6ee1124a-00f5-4b1c-b6ac-c917fc266b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TTAPI">
+      <UniqueIdentifier>{be4335cf-7367-40ca-a928-3ad1cf3ae042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLC">
+      <UniqueIdentifier>{ddffa821-05f8-42a0-bf8f-ebca2a20d570}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="xrCPU_Pipe.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="xrSkin2W.cpp">
+      <Filter>Skinning</Filter>
+    </ClCompile>
+    <ClCompile Include="xrSkin2W_SSE.cpp">
+      <Filter>Skinning</Filter>
+    </ClCompile>
+    <ClCompile Include="xrSkin2W_thread.cpp">
+      <Filter>Skinning</Filter>
+    </ClCompile>
+    <ClCompile Include="ttapi.cpp">
+      <Filter>TTAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="PLC.cpp">
+      <Filter>PLC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="xrCPU_Pipe.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ttapi.h">
+      <Filter>TTAPI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="xrCPU_Pipe.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
