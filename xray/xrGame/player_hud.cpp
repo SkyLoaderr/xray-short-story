@@ -376,14 +376,15 @@ u32 attachable_hud_item::anim_play(const shared_str& anm_name_b, BOOL bMixIn, co
 		VERIFY					(current_actor);
 		CEffectorCam* ec		= current_actor->Cameras().GetCamEffector(eCEWeaponAction);
 
-		if(ec)
-			current_actor->Cameras().RemoveCamEffector(eCEWeaponAction);
 
 		string_path			ce_path;
 		string_path			anm_name;
 		strconcat			(sizeof(anm_name),anm_name,"camera_effects\\weapon\\", M.name.c_str(),".anm");
 		if (FS.exist( ce_path, "$game_anims$", anm_name))
 		{
+			if(ec)
+				current_actor->Cameras().RemoveCamEffector(eCEWeaponAction);
+
 			CAnimatorCamEffector* e		= xr_new<CAnimatorCamEffector>();
 			e->SetType					(eCEWeaponAction);
 			e->SetHudAffect				(false);

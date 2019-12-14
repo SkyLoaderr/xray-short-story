@@ -1786,6 +1786,35 @@ public:
 	}
 };
 
+class CCC_GSpawn : public IConsole_Command
+{
+public:
+	CCC_GSpawn(LPCSTR N) : IConsole_Command(N) { bEmptyArgsHandled = false; };
+
+	virtual void	Execute(LPCSTR args)
+	{
+		if (!g_pGameLevel) return;
+
+		if (!pSettings->section_exist(args))
+		{
+			Msg("! Section [%s] is not exist", args);
+			return;
+		}
+
+		char	Name[128];	Name[0] = 0;
+		sscanf(args, "%s", Name);
+		Fvector pos = Actor()->Position();
+		pos.y += 3.0f;
+		Level().g_cl_Spawn(Name, 0xff, M_SPAWN_OBJECT_LOCAL, pos);
+	}//void	Execute
+
+	virtual void Status(TStatus& S)
+	{
+		xr_strcpy(S, "<section> (Specify section name!)");
+	}
+	virtual void Save(IWriter* F) {}
+};
+
 void CCC_RegisterCommands()
 {
 	// options
@@ -2146,6 +2175,11 @@ CMD4(CCC_FloatBlock,		"dbg_text_height_scale",	&dbg_text_height_scale	,			0.2f	,
 
 	CMD3(CCC_Mask,			"cl_dynamiccrosshair",	&psHUD_Flags,	HUD_CROSSHAIR_DYNAMIC);
 	CMD1(CCC_MainMenu,		"main_menu"				);
+
+	if (strstr(Core.Params, "-developer_mode"))
+	{
+		CMD1(CCC_GSpawn, "g_spawn");
+	}
 
 #ifndef MASTER_GOLD
 	CMD1(CCC_StartTimeSingle,	"start_time_single");

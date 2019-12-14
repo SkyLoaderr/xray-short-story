@@ -393,6 +393,7 @@ void CActor::ActorUse()
 	if(m_pUsableObject && NULL==m_pObjectWeLookingAt->cast_inventory_item())
 	{
 		m_pUsableObject->use(this);
+		m_bPickupMode = false;
 	}
 	
 	if ( m_pInvBoxWeLookingAt && m_pInvBoxWeLookingAt->nonscript_usable() )
