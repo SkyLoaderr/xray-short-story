@@ -47,6 +47,7 @@
     </ClInclude>
     <ClInclude Include="dds.h" />
     <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="nvdxt_options.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DXT.cpp">
@@ -77,5 +78,8 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="nvDXTlibMTDLL.lib" />
   </ItemGroup>
 </Project>
