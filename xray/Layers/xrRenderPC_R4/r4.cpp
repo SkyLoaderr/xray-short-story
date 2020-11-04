@@ -702,6 +702,8 @@ void	CRender::Statistics	(CGameFont* _F)
 static const GUID guidShaderReflection =
 { 0x0a233719, 0x3960, 0x4578,{ 0x9d, 0x7c, 0x20, 0x3b, 0x8b, 0x1d, 0x9c, 0xc1 } };
 
+//#define guidShaderReflection IID_ID3D11ShaderReflection
+
 void CRender::addShaderOption(const char* name, const char* value)
 {
 	D3D_SHADER_MACRO macro = {name, value};
