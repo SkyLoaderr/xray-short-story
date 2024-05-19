@@ -16,6 +16,8 @@ src/SDK/*
 src/packages/*
 lib/*
 lib_x64/*
+binaries/*
+libraries/*
 *.ipch
 *.pch
 *.sdf
